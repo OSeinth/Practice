@@ -1,0 +1,120 @@
+:root{
+    --fgcolor: #66a324;
+    --bgcolor: #ffffff;
+    --primary: #555;
+    --light: #888
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--bgcolor);
+    color: black;
+}
+main{
+
+    margin: 0 auto;
+    max-width: 80%;
+
+}
+navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blue;
+
+}
+button{
+    border-radius: 25%;
+    color: rgb(245, 245, 249);
+    background-color: var(--fgcolor);
+    border: 0;
+    margin: 15px;
+    padding: 10px;
+    
+}
+button:hover{
+    color: black;
+    background-color: var(--primary);
+    
+    transform: rotate(3600deg);
+    transition: 10s;
+    
+}
+a{
+    color: purple;
+    text-decoration: none;
+    margin: 0px 10px;
+
+}
+.hero{
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    align-items: center;
+
+}
+.hero-image{
+    width: 300px;
+}
+.hero-image:hover{
+    transform: rotate(3600deg);
+    transition: 10s;
+}
+.services{
+    text-align: center;
+}
+.services-flex{
+    display: flex;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+}
+.services-card{
+    color: grey;
+    /* border: solid 1px black; */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 0 6px var(--fgcolor);
+
+}
+.tfaq{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px;
+    align-items: center;
+    gap: 50px;
+
+}
+.question p{
+    display: none;
+}
+.test{
+    background-color: var(--light);
+    border-radius: 10px;
+    text-align: center;
+}
+.question{
+    border-bottom:solid 1px black;
+    margin: 5px 0;
+}
+footer{ 
+    background-color: var(--fgcolor);
+}
+.location{
+    align-items: center;
+    text-align: center;
+}
+.contact{
+    padding: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.bottom {
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    align-items: baseline;
+}

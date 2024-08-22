@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px){
+        main{
+            max-width: 90%;
+        
+        }
+        .hero{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 25px;
+        }
+        
+        
+        .services-flex{
+            flex-wrap: wrap;
+        }
+        .hero:hover{
+            transform: rotate(3000dg);
+            transition: 10s;
+        }
+}
